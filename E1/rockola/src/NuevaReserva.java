@@ -18,7 +18,7 @@ public class NuevaReserva extends javax.swing.JDialog {
     public NuevaReserva(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-         jPanelFestival.setVisible(false);
+        jPanelFestival.setVisible(false);
     }
 
     /** This method is called from within the constructor to
@@ -288,7 +288,7 @@ public class NuevaReserva extends javax.swing.JDialog {
         if (tipoEvento.equals("Festival"))
             jPanelFestival.setVisible(true);
         else
-             jPanelFestival.setVisible(false);
+            jPanelFestival.setVisible(false);
     }//GEN-LAST:event_jComboBoxTipoEventoActionPerformed
 
     private void jTextFieldNombrePersonaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNombrePersonaActionPerformed
